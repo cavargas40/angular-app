@@ -11,7 +11,7 @@ export class ServersComponent implements OnInit {
   
   public allowNewServer: boolean = false;
   public serverCreationStatus: string = `No Server was created`;
-  public serverName: string = '';
+  public serverName: string = 'ServerTest';
 
 
   constructor() { }
