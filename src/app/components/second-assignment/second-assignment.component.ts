@@ -8,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class SecondAssignmentComponent implements OnInit {
 
   public username: string = '';
-  
+
   constructor() { }
 
   ngOnInit() {
   }
+
+  
 
 }
