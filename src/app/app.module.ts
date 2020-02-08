@@ -13,6 +13,8 @@ import { FourthAssignmentComponent } from './components/fourth-assignment/fourth
 import { GameControlComponent } from './components/fourth-assignment/game-control/game-control.component';
 import { OddComponent } from './components/fourth-assignment/odd/odd.component';
 import { EvenComponent } from './components/fourth-assignment/even/even.component';
+import { DirectivesDeepDiveComponent } from './components/directives-deep-dive/directives-deep-dive.component';
+import { BasicHighlighDirective } from './directives/basic-highlight.directive';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { EvenComponent } from './components/fourth-assignment/even/even.componen
     GameControlComponent,
     OddComponent,
     EvenComponent,
+    DirectivesDeepDiveComponent,
+    BasicHighlighDirective,
   ],
   imports: [
     BrowserModule,
