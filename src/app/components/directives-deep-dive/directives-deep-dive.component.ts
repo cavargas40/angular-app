@@ -11,6 +11,7 @@ export class DirectivesDeepDiveComponent implements OnInit {
   public oddNumbers: Array<number> = [1,3,5];
   public evenNumbers: Array<number> = [2,4];
   public onlyOdd: boolean = false;
+  public value: number = 10;
 
   constructor() { }
 
